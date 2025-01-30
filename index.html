@@ -17,7 +17,7 @@
             let password = document.getElementById("password").value.trim();
 
             let validUsername = "posanioleva";
-            let validPassword = "jhunette";
+            let validPassword = "jhunnette";
 
             if (username === validUsername && password === validPassword) {
                 alert("Login successful! Welcome, " + username + "!");
@@ -42,9 +42,9 @@
     <img src="posa.png" alt="img" width="150px">
     <h3>Login to redirect to "Oleva at si Babae"</h3>
     <form onsubmit="validateLogin(event)">
-        <input type="text" id="username" name="username" required minlength="3" maxlength="11" placeholder="Username" size="40">
+        <input type="text" id="username" name="username" required minlength="5" maxlength="11" placeholder="Username" size="40">
         <br>
-        <input type="password" id="password" name="password" required minlength="8" maxlength="8" placeholder="Password !sino si babae?" size="40">
+        <input type="password" id="password" name="password" required minlength="9" maxlength="11" placeholder="Password !sino si babae?" size="40">
         <br>
         <input type="submit" value="Login">
         <input type="checkbox" onclick="togglePassword()"> Show Password
