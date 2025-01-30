@@ -1,0 +1,43 @@
+body{
+    background: url(https://usagif.com/wp-content/uploads/gif-heart-8.gif);
+    background-size: 100%;
+    text-align: center;
+    word-spacing: 5px;
+}
+p{
+    color: pink;
+    font-size: 35px;
+    font-family: monospace;
+    font-style: oblique; 
+}
+h1{
+    color: lightblue;
+    font-family: monospace;
+    font-style: italic, bold;
+    font-size: 45px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+h2{
+    color: cyan;
+    font-size: 70px;
+    font-family: cursive;
+}
+h5{
+    color: rgb(66, 255, 66);
+    font-style: italic;
+}
+h3{
+    color: aqua;
+    font-style: oblique;
+}
+form{
+    color: pink;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+}
+input{
+    color: pink;
+}

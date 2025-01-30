@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login to Posa</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, lightblue, pink);
+        }
+    </style>
+    <script>
+        function validateLogin(event) {
+            event.preventDefault(); // Prevent form from submitting
+
+            let username = document.getElementById("username").value.trim();
+            let password = document.getElementById("password").value.trim();
+
+            let validUsername = "posanioleva";
+            let validPassword = "jhunette";
+
+            if (username === validUsername && password === validPassword) {
+                alert("Login successful! Welcome, " + username + "!");
+                window.location.href = "posa.html"; // Redirect after success
+            } else {
+                alert("Invalid username or password.");
+            }
+        }
+
+        function togglePassword() {
+            let passwordInput = document.getElementById("password");
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text"; // Show password
+            } else {
+                passwordInput.type = "password"; // Hide password
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Login to Posa!</h1>
+    <img src="posa.png" alt="img" width="150px">
+    <h3>Login to redirect to "Oleva at si Babae"</h3>
+    <form onsubmit="validateLogin(event)">
+        <input type="text" id="username" name="username" required minlength="3" maxlength="11" placeholder="Username" size="40">
+        <br>
+        <input type="password" id="password" name="password" required minlength="8" maxlength="8" placeholder="Password !sino si babae?" size="40">
+        <br>
+        <input type="submit" value="Login">
+        <input type="checkbox" onclick="togglePassword()"> Show Password
+    </form>
+</body>
+</html>
