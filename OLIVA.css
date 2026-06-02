@@ -1,0 +1,44 @@
+body{
+    background: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF5NmdiOGM4NzdocjU5NWxjM2pxN24yNmp4ejdjejM4cXN3bnZwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tjflzbCmRA5Py/giphy.gif);
+    background-size: 100%;
+    text-align: center;
+    word-spacing: 5px;
+}
+p {
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px black;
+}
+h1{
+    color: pink;
+    font-family: monospace;
+    font-style: italic, bold;
+    font-size: 45px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+h2{
+    color: red;
+    font-size: 70px;
+    font-family: cursive;
+}
+h5{
+    color: blue;
+    font-style: italic;
+}
+h3{
+    color: aqua;
+    font-style: oblique;
+}
+form{
+    color: pink;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+}
+input{
+    color: pink;
+}
