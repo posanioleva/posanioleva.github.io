@@ -1,5 +1,5 @@
 body{
-    background: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWF5NmdiOGM4NzdocjU5NWxjM2pxN24yNmp4ejdjejM4cXN3bnZwMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tjflzbCmRA5Py/giphy.gif);
+    background: url(https://farm4.static.flickr.com/3262/2720527056_ce94a0ffb4_o.gif);
     background-size: 100%;
     text-align: center;
     word-spacing: 5px;
@@ -41,8 +41,4 @@ form{
 }
 input{
     color: pink;
-}
-h6{
-    color: white;
-    font-style: italic;
 }
