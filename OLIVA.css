@@ -1,0 +1,108 @@
+body{
+    background: url(https://farm4.static.flickr.com/3262/2720527056_ce94a0ffb4_o.gif);
+    background-size: 100%;
+    text-align: center;
+    word-spacing: 5px;
+}
+p {
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px black;
+}
+h1{
+    color: pink;
+    font-family: monospace;
+    font-style: italic, bold;
+    font-size: 45px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+h2{
+    color: red;
+    font-size: 70px;
+    font-family: cursive;
+}
+h5{
+    color: blue;
+    font-style: italic;
+}
+h3{
+    color: aqua;
+    font-style: oblique;
+}
+form{
+    color: pink;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;
+}
+input{
+    color: pink;
+}
+
+.sticker-container {
+    text-align: center;
+    margin: 30px;
+}
+
+.clickable-sticker {
+    width: 150px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.clickable-sticker:hover {
+    transform: scale(1.2) rotate(5deg);
+}
+
+.gallery {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.92);
+    overflow-y: auto;
+    text-align: center;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+
+.gallery h2,
+.gallery p {
+    color: white;
+}
+
+.photo-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.photo-container img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.close {
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .photo-container {
+        grid-template-columns: 1fr;
+    }
+}
